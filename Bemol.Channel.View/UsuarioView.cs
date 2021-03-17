@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Bemol.Channel.View
+{
+    public partial class UsuarioView : Form
+    {
+
+        public UsuarioView()
+        {
+            InitializeComponent();
+        }
+
+        static void Main()
+        {
+        }
+    }
+}

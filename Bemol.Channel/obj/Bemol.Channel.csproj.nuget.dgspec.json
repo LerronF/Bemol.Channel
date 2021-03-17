@@ -4,6 +4,26 @@
     "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel\\Bemol.Channel.csproj": {}
   },
   "projects": {
+    "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj",
+        "projectName": "Bemol.Channel.Model",
+        "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj",
+        "projectName": "Bemol.Channel.View",
+        "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel\\Bemol.Channel.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +47,14 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj": {
+                "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj"
+              },
+              "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj": {
+                "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,14 +70,6 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.4, )"
-            },
-            "System.ComponentModel.Annotations": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             }
           },
           "imports": [
