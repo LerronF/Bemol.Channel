@@ -63,7 +63,7 @@ namespace Bemol.Channel
             {
                 var obj = contexto.Usuarios.ToList();
 
-                if (obj != null)
+                if (obj.Count > 0)
                 {
                     lblNome.Visible = true;
                     lblCPF.Visible = true;

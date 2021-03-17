@@ -193,6 +193,7 @@ namespace Bemol.Channel
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.panel3.Controls.Add(this.pictureBox);
             this.panel3.Controls.Add(this.lblCidade);
             this.panel3.Controls.Add(this.lblNome);

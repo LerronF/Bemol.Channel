@@ -34,7 +34,7 @@ namespace Bemol.Channel.View
             {
                 var obj = contexto.Usuarios.ToList();
 
-                if (obj != null)
+                if (obj.Count > 0)
                 {
                     editar = true;
 
@@ -46,7 +46,7 @@ namespace Bemol.Channel.View
                     txtLogradouro.Text = obj[0].Logradouro;
                     txtBairro.Text = obj[0].Bairro;
                     txtCidade.Text = obj[0].Cidade;
-                    txtUF.Text = obj[0].UF;                   
+                    txtUF.Text = obj[0].UF;
 
                     try
                     {
@@ -62,7 +62,7 @@ namespace Bemol.Channel.View
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
-        {            
+        {
             Usuario objUsuario = new Usuario();
 
             if (editar)
@@ -112,7 +112,8 @@ namespace Bemol.Channel.View
                 objContext.SaveChanges();
                 MessageBox.Show("Cadastro realizado com sucesso !", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-                this.Close();
+
+            this.Close();
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -136,7 +137,6 @@ namespace Bemol.Channel.View
                 else
                 {
                     txtCPF.Text = "";
-                    txtCPF.Focus();
                     MessageBox.Show("CPF inválido !", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
