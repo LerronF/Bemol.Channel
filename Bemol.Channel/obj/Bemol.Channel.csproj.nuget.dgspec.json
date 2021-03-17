@@ -4,6 +4,16 @@
     "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel\\Bemol.Channel.csproj": {}
   },
   "projects": {
+    "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Controller\\Bemol.Channel.Controller.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Controller\\Bemol.Channel.Controller.csproj",
+        "projectName": "Bemol.Channel.Controller",
+        "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Controller\\Bemol.Channel.Controller.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj": {
       "restore": {
         "projectUniqueName": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj",
@@ -18,7 +28,19 @@
       "restore": {
         "projectUniqueName": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj",
         "projectName": "Bemol.Channel.View",
-        "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj"
+        "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.View\\Bemol.Channel.View.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Controller\\Bemol.Channel.Controller.csproj": {
+                "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Controller\\Bemol.Channel.Controller.csproj"
+              },
+              "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj": {
+                "projectPath": "C:\\TFS\\BemolDigital\\Bemol.Channel\\Bemol.Channel.Model\\Bemol.Channel.Model.csproj"
+              }
+            }
+          }
+        }
       },
       "frameworks": {
         "net472": {}

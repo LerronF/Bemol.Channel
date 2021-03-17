@@ -70,6 +70,10 @@
     <Compile Include="Migrations\202103170250267_Add_Usuario.designer.cs">
       <DependentUpon>202103170250267_Add_Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103171413510_Add_CEP_Telefone.cs" />
+    <Compile Include="Migrations\202103171413510_Add_CEP_Telefone.designer.cs">
+      <DependentUpon>202103171413510_Add_CEP_Telefone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103170250267_Add_Usuario.resx">
       <DependentUpon>202103170250267_Add_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103171413510_Add_CEP_Telefone.resx">
+      <DependentUpon>202103171413510_Add_CEP_Telefone.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

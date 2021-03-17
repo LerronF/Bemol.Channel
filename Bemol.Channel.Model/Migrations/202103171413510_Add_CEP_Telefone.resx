@@ -117,32 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="NewEmployee_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewEmployee_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAM1Yy27jNhTdF+g/CFy1QMbKY9MG8gwSOS6CxokximdPS9c2UYpUSSqwv20W/aT+Qi/1ftiJHceDwhubuvfcB8lzj/Xv93+8L+uYOy+gNJNiSC4G58QBEcqIieWQpGbx6Tfy5fPPP3l3Ubx2vpV2V9YOPYUekpUxybXr6nAFMdWDmIVKarkwg1DGLo2ke3l+/rt7ceECQhDEchzvayoMiyH7gT99KUJITEr5REbAdbGOT4IM1XmkMeiEhjAktxBLPvBXVAjgg8yeODecUUwlAL4gDj6RhhpM9HqmITBKimWQ4ALlz5sE0G5BuYaigOvafN9azi9tLW7tWEKFqTYyPhDw4qpojtt1f1eLSdU8bN8dttlsbNVZC4dkplOqmCRON9a1z5W129rgQYbDQA8K/zNni9VZdT7wGNnPmeOn3KQKhgJSoyhaTNM5Z+GfsHmWf4EYipTzZsKYMj5rLeDSVMkElNl8hUVRxn1EHLft53YdK7eGT17hvTBXl8R5xOB0zqE6D41uBEYq+AMEKGogmlJjQAmLAVlHe9E7sR5lDGU0PIB4mYgzoesHEEuzGhL8SpwxW0NUrhQZzATDu4dORqXwVhB/Oj55jAe5VHjAUiVPHuqWMvUDwvgsotHpN2d2+r3x76Ynj/EMHBZSfHS/PLdmpj5f4TgwlOHdK0+G5ZoRWzJDuX0Ga7OFwJDrCw7TRch2ZTl2AKZNhZo4dS75CBlULLkt5yq7ekq5+Zgqx5m7Y555E5ok2L7GfCtWnCAfbv6n4HDSj3MMN9RbuL/KtoqEzEaX0HmKoTHTMVPajKihc2o30I/intm2vdjR5zJip91ddq+7XzrY742d78yicnM6OHUzx1hfjDydlQpVOvXw63lmQoNyqraMDF/yNBa7xs5r3vkQaPrnK/sjZAzfBMgW9vdvsncTprm+P1pJ0E2kcu2Amgr+bZVVrO2PMus0ZnZQXzLmbCVgF/b3r1mxCVKv9pE8t3M4u7fA7V2DjrzpXqvXmKlrUkWvGKrDRF7BCm/L7x5N5CbEwRa9sMhSRLDRBuKBNRgEf3OfM6y3NphQwRagTa4ACQrgy46A//+IaVfriO+nqH+4imW2qW/q1J7I3V+4iheqwhVVv8R0/WsT6UBxehROX4AeBdcWmcdV2BKSR0HNPqZXDUF4FE5X9B0Adpiw62uOvSTba4otp6MhieZ2l/M0a6X3Tj3XZ0fPbb7C8Eag2bKGsC80BISWdmrQ0uZeLGTZcCytmVFp0tmPCRgaYYdulGELGhp8HILWmRD/RnmKJnfxHKJ78ZSaJDU3WkM8561/qZ77evxMtLZz9p4S+0t/RAmYJl4XA0/iNmU8qvIe90lpF4Q9LAXTYVb4RwThlpsK6bE3eXcBFe0bQQLC8uQzxAlHMP0kAvoC78kN/3s8wJKGm3LI7QZ5eyPabfdGjCIFxrrAqP3taznXvpf7/B9MsxLfyRMAAA==</value>
   </data>
-  <data name="Bemol.logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bemol.logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bemoldigital" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bemoldigital.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d9d97d48264770f85d35c208f279152c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d9d97d48264770f85d35c208f279152c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logotipo_loja_loteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logotipo_loja_loteria.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca-bemol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca-bemol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bemol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bemol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOB-ICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOB-ICON1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Close_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

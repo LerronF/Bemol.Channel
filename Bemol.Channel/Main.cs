@@ -1,12 +1,6 @@
 ﻿using Bemol.Channel.View;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bemol.Channel
@@ -31,12 +25,20 @@ namespace Bemol.Channel
             }
         }
 
-        private void btnIniciar_Click(object sender, EventArgs e)
+        private void btnUsuario_Click(object sender, EventArgs e)
         {
             UsuarioView mdiChildForm = new UsuarioView();
             mdiChildForm.MdiParent = this;
-            mdiChildForm.Text = "Formulário MDI Filho";
+            mdiChildForm.Text = "Cadastro de Usuário";
             mdiChildForm.Show();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+           if(MessageBox.Show("Deseja Finalizar a Sessão ?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

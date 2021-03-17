@@ -280,6 +280,15 @@
           }
         }
       },
+      "Bemol.Channel.Controller/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Bemol.Channel.Controller.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bemol.Channel.Controller.dll": {}
+        }
+      },
       "Bemol.Channel.Model/1.0.0": {
         "type": "project",
         "compile": {
@@ -291,6 +300,10 @@
       },
       "Bemol.Channel.View/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Bemol.Channel.Controller": "1.0.0",
+          "Bemol.Channel.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Bemol.Channel.View.dll": {}
         },
@@ -1035,6 +1048,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Bemol.Channel.Controller/1.0.0": {
+      "type": "project",
+      "path": "../Bemol.Channel.Controller/Bemol.Channel.Controller.csproj",
+      "msbuildProject": "../Bemol.Channel.Controller/Bemol.Channel.Controller.csproj"
     },
     "Bemol.Channel.Model/1.0.0": {
       "type": "project",

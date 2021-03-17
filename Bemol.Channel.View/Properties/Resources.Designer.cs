@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bemol.Channel.Properties {
+namespace Bemol.Channel.View.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Bemol.Channel.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Bemol.Channel.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Bemol.Channel.View.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Bemol.Channel.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bemol {
+        internal static System.Drawing.Bitmap _10617339661581068846_128 {
             get {
-                object obj = ResourceManager.GetObject("bemol", resourceCulture);
+                object obj = ResourceManager.GetObject("10617339661581068846-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,29 +73,9 @@ namespace Bemol.Channel.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bemol_logo {
+        internal static System.Drawing.Bitmap _8632102441536572527_128 {
             get {
-                object obj = ResourceManager.GetObject("Bemol.logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bemoldigital {
-            get {
-                object obj = ResourceManager.GetObject("bemoldigital", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap BOB_ICON1 {
-            get {
-                object obj = ResourceManager.GetObject("BOB-ICON1", resourceCulture);
+                object obj = ResourceManager.GetObject("8632102441536572527-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,39 +93,9 @@ namespace Bemol.Channel.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap d9d97d48264770f85d35c208f279152c {
+        internal static System.Drawing.Bitmap Save_32x32 {
             get {
-                object obj = ResourceManager.GetObject("d9d97d48264770f85d35c208f279152c", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logotipo_loja_loteria {
-            get {
-                object obj = ResourceManager.GetObject("logotipo_loja_loteria", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap marca_bemol {
-            get {
-                object obj = ResourceManager.GetObject("marca-bemol", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap NewEmployee_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("NewEmployee_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("Save_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
