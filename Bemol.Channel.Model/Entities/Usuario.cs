@@ -20,5 +20,6 @@ namespace Bemol.Channel.Model.Entities
         public string UF { get; set; }
         public string CEP { get; set; }
         public string Telefone { get; set; }
+        public byte[] Foto { get; set; }
     }
 }

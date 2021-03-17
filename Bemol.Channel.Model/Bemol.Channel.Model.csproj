@@ -74,6 +74,10 @@
     <Compile Include="Migrations\202103171413510_Add_CEP_Telefone.designer.cs">
       <DependentUpon>202103171413510_Add_CEP_Telefone.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103171555542_Add_Foto.cs" />
+    <Compile Include="Migrations\202103171555542_Add_Foto.designer.cs">
+      <DependentUpon>202103171555542_Add_Foto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -90,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103171413510_Add_CEP_Telefone.resx">
       <DependentUpon>202103171413510_Add_CEP_Telefone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103171555542_Add_Foto.resx">
+      <DependentUpon>202103171555542_Add_Foto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
