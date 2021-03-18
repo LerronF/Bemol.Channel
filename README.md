@@ -6,8 +6,7 @@
 ## [4. Clonar Repositório](#Clonar)
 ## [5. Conexão do Projeto com o Banco de Dados](#connection)
 ## [6. Executando o Projeto](#executar)
-## [7. Detalhes adicionais](#detail)
-## [8. Respostas](#resp)
+## [7. Respostas](#resp)
 
 ## <a id="intro">1. Introdução
 
@@ -34,12 +33,12 @@
   * Abra este diretorio [ConnectionString](https://github.com/LerronF/Bemol.Channel/blob/main/Bemol.Channel/App.config), e faça as alterações necessárias.
   * Se tiver dificuldades para configurar siga os passos abaixo: 
     *  Altere a ConnectionStrings que fica dentro do [App.config](https://github.com/LerronF/WebApp-FPF/blob/main/src/DesafioFPF/DesafioFPF.WebApp/appsettings.json) conforme exemplo ao lado: "add name="bemolConnectionString" connectionString="data source=**SERVIDOR SQLSERVER**; Initial Catalog=**BANCO DE DADOS(OU MANTEM A MASTER)**;Integrated Security=True;" providerName="System.Data.SqlClient" "
-    *  
+    
 ## <a id="executar"> 6. Executando o Projeto
+* A execução é simples, pressionando a tecla F5 a IDE faz o build do projeto, copila e quando começar a executar ele cria automatico a tabela necessária para a criação de usuarios na aplicação.
 
-## <a id="detail"> 7. Detalhes adicionas
-
-## <a id="resp"> 8. Respostas
+## <a id="resp"> 7. Respostas
+ 
 
 [Voltar ao inicio](#begin)
 
