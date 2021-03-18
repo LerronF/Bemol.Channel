@@ -1,28 +1,51 @@
-![Capture 7bded352d345410c937c](https://user-images.githubusercontent.com/34350719/111554488-d843e000-875c-11eb-9e99-545402b2b5b9.png)
-# Bemol Channel 
+# <a id="begin"> Desafio SE - Bemol 
 
-## Feature - Criação de contas de usuário.
+## [1. Introdução](#intro)
+## [2. IDE](#IDE)
+## [3. Banco de dados](#db)
+## [4. Clonar Repositório](#Clonar)
+## [5. Conexão do Projeto com o Banco de Dados](#connection)
+## [6. Executando o Projeto](#executar)
+## [7. Detalhes adicionais](#detail)
+## [8. Respostas](#resp)
 
-### Para executar a aplicação em sua maquina, siga os passos abaixo.
+## <a id="intro">1. Introdução
+
+* Projeto criado para o processo seletivo da vaga de Software Engineer na Bemol Digital.
+
+## <a id="IDE"> 2. IDE
+
+* A IDE de desenvolvimento usada é Visual Studio 2019. Segue o link abaixo.
+  * [Visual Studio 2019 - Community](https://visualstudio.microsoft.com/pt-br/downloads/?rr=https%3A%2F%2Fwww.google.com.br%2F)
+
+## <a id="db"> 3. Banco de Dados.
+
+* Instale em sua máquina o Banco de dados SqlServer seguindo os links abaixo(se ja possui instalação ignore essa etapa).
+  * [Microsoft® SQL Server® 2017 Express](https://www.microsoft.com/en-us/download/details.aspx?id=55994)
+
+## <a id="Clonar"> 4. Clonar Repositório.
 
 * Copie o link abaixo para clonar o repositório em sua máquina. 
   * Link: [GitHub](https://github.com/LerronF/Bemol.Channel.git)
-* Instale em sua máquina o Banco de dados SqlServer seguindo os links abaixo(se ja possui instalação ignore essa etapa).
-  * [Microsoft® SQL Server® 2017 Express](https://www.microsoft.com/en-us/download/details.aspx?id=55994)
-* A IDE de desenvolvimento usada é Visual Studio 2019. Segue o link abaixo.
-  * [Visual Studio 2019 - Community](https://visualstudio.microsoft.com/pt-br/downloads/?rr=https%3A%2F%2Fwww.google.com.br%2F)
+
+## <a id="connection"> 5. Conexão do projeto com o Banco de Dados.
+
 * Configurar a ConnectionStrings do projeto:
   * Abra este diretorio [ConnectionString](https://github.com/LerronF/Bemol.Channel/blob/main/Bemol.Channel/App.config), e faça as alterações necessárias.
   * Se tiver dificuldades para configurar siga os passos abaixo: 
     *  Altere a ConnectionStrings que fica dentro do [App.config](https://github.com/LerronF/WebApp-FPF/blob/main/src/DesafioFPF/DesafioFPF.WebApp/appsettings.json) conforme exemplo ao lado: "add name="bemolConnectionString" connectionString="data source=**SERVIDOR SQLSERVER**; Initial Catalog=**BANCO DE DADOS(OU MANTEM A MASTER)**;Integrated Security=True;" providerName="System.Data.SqlClient" "
+    *  
+## <a id="executar"> 6. Executando o Projeto
+
+## <a id="detail"> 7. Detalhes adicionas
+
+## <a id="resp"> 8. Respostas
+
+[Voltar ao inicio](#begin)
 
 
-#### Pronto ! Sua maquina está configurada para rodar a aplicação !
-
-#### As operações do cadastro são bem intuitivas e simples.
 
 
-Até logo.
 
 
 
