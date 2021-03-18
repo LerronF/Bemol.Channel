@@ -18,3 +18,4 @@ C:\TFS\BemolDigital\Bemol.Channel\Bemol.Channel.Model\obj\Debug\Bemol.Channel.Mo
 C:\TFS\BemolDigital\Bemol.Channel\Bemol.Channel.Model\obj\Debug\Bemol.Channel.Model.csproj.CopyComplete
 C:\TFS\BemolDigital\Bemol.Channel\Bemol.Channel.Model\obj\Debug\Bemol.Channel.Model.dll
 C:\TFS\BemolDigital\Bemol.Channel\Bemol.Channel.Model\obj\Debug\Bemol.Channel.Model.pdb
+C:\TFS\BemolDigital\Bemol.Channel\Bemol.Channel.Model\obj\Debug\Bemol.Channel.Model.csprojAssemblyReference.cache

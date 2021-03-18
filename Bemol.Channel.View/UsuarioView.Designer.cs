@@ -30,13 +30,13 @@ namespace Bemol.Channel.View
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.maskTel = new System.Windows.Forms.MaskedTextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.picFotoUsuario = new System.Windows.Forms.PictureBox();
             this.maskCEP = new System.Windows.Forms.MaskedTextBox();
             this.chkValida = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.txtUF = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,12 +52,12 @@ namespace Bemol.Channel.View
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.maskTel = new System.Windows.Forms.MaskedTextBox();
+            this.picFotoUsuario = new System.Windows.Forms.PictureBox();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picFotoUsuario)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFotoUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -88,29 +88,43 @@ namespace Bemol.Channel.View
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(737, 307);
+            this.panel1.Size = new System.Drawing.Size(737, 269);
             this.panel1.TabIndex = 0;
+            // 
+            // maskTel
+            // 
+            this.maskTel.Location = new System.Drawing.Point(288, 69);
+            this.maskTel.Mask = "(00)00000-9999";
+            this.maskTel.Name = "maskTel";
+            this.maskTel.Size = new System.Drawing.Size(94, 20);
+            this.maskTel.TabIndex = 1;
+            this.maskTel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(264, 21);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(19, 13);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "Id:";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(288, 17);
+            this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
+            this.txtID.Size = new System.Drawing.Size(39, 20);
+            this.txtID.TabIndex = 20;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(22, 211);
+            this.label9.Location = new System.Drawing.Point(11, 209);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 13);
+            this.label9.Size = new System.Drawing.Size(184, 13);
             this.label9.TabIndex = 19;
-            this.label9.Text = "Clique para carregar a imagem";
-            // 
-            // picFotoUsuario
-            // 
-            this.picFotoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picFotoUsuario.Location = new System.Drawing.Point(11, 11);
-            this.picFotoUsuario.Name = "picFotoUsuario";
-            this.picFotoUsuario.Size = new System.Drawing.Size(184, 197);
-            this.picFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picFotoUsuario.TabIndex = 18;
-            this.picFotoUsuario.TabStop = false;
-            this.picFotoUsuario.Click += new System.EventHandler(this.picFotoUsuario_Click);
-            this.picFotoUsuario.DoubleClick += new System.EventHandler(this.picFotoUsuario_DoubleClick);
+            this.label9.Text = "Clique  acima para carregar a imagem";
             // 
             // maskCEP
             // 
@@ -137,42 +151,10 @@ namespace Bemol.Channel.View
             this.panel2.Controls.Add(this.btnFechar);
             this.panel2.Controls.Add(this.btnSalvar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 262);
+            this.panel2.Location = new System.Drawing.Point(0, 224);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(735, 43);
             this.panel2.TabIndex = 16;
-            // 
-            // btnFechar
-            // 
-            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnFechar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFechar.Image = global::Bemol.Channel.View.Properties.Resources.Close_32x32;
-            this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFechar.Location = new System.Drawing.Point(552, 0);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(94, 43);
-            this.btnFechar.TabIndex = 17;
-            this.btnFechar.Text = "Fechar";
-            this.btnFechar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSalvar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Image = global::Bemol.Channel.View.Properties.Resources.Save_32x32;
-            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvar.Location = new System.Drawing.Point(646, 0);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(89, 43);
-            this.btnSalvar.TabIndex = 17;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // label8
             // 
@@ -294,37 +276,55 @@ namespace Bemol.Channel.View
             // 
             this.openFileDialog.FileName = "openFileDialog";
             // 
-            // label10
+            // picFotoUsuario
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(264, 21);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 13);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "Id:";
+            this.picFotoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picFotoUsuario.Location = new System.Drawing.Point(11, 11);
+            this.picFotoUsuario.Name = "picFotoUsuario";
+            this.picFotoUsuario.Size = new System.Drawing.Size(184, 197);
+            this.picFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picFotoUsuario.TabIndex = 18;
+            this.picFotoUsuario.TabStop = false;
+            this.picFotoUsuario.Click += new System.EventHandler(this.picFotoUsuario_Click);
+            this.picFotoUsuario.DoubleClick += new System.EventHandler(this.picFotoUsuario_DoubleClick);
             // 
-            // txtID
+            // btnFechar
             // 
-            this.txtID.Location = new System.Drawing.Point(288, 17);
-            this.txtID.Name = "txtID";
-            this.txtID.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(39, 20);
-            this.txtID.TabIndex = 20;
+            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnFechar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechar.Image = global::Bemol.Channel.View.Properties.Resources.Close_32x32;
+            this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFechar.Location = new System.Drawing.Point(552, 0);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(94, 43);
+            this.btnFechar.TabIndex = 17;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // maskTel
+            // btnSalvar
             // 
-            this.maskTel.Location = new System.Drawing.Point(288, 69);
-            this.maskTel.Mask = "(00)00000-9999";
-            this.maskTel.Name = "maskTel";
-            this.maskTel.Size = new System.Drawing.Size(94, 20);
-            this.maskTel.TabIndex = 22;
-            this.maskTel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSalvar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSalvar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Image = global::Bemol.Channel.View.Properties.Resources.Save_32x32;
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvar.Location = new System.Drawing.Point(646, 0);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(89, 43);
+            this.btnSalvar.TabIndex = 17;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // UsuarioView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 307);
+            this.ClientSize = new System.Drawing.Size(737, 269);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -334,8 +334,8 @@ namespace Bemol.Channel.View
             this.Load += new System.EventHandler(this.UsuarioView_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picFotoUsuario)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picFotoUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }

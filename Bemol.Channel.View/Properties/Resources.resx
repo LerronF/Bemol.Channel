@@ -121,13 +121,10 @@
   <data name="Save_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="8632102441536572527-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8632102441536572527-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="10617339661581068846-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10617339661581068846-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Close_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bemoldigital-1609341074-planetinha-250x250png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bemoldigital-1609341074-planetinha-250x250png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

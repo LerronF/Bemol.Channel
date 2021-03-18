@@ -30,13 +30,6 @@ namespace Bemol.Channel
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnBemol = new System.Windows.Forms.Button();
-            this.btnDigital = new System.Windows.Forms.Button();
-            this.btnFarma = new System.Windows.Forms.Button();
-            this.btnWhatsapp = new System.Windows.Forms.Button();
-            this.btnChat = new System.Windows.Forms.Button();
-            this.btnLoteria = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnFechar = new System.Windows.Forms.Button();
             this.btnUsuario = new System.Windows.Forms.Button();
@@ -51,100 +44,10 @@ namespace Bemol.Channel
             this.lblLogradouro = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.btnBemol);
-            this.panel1.Controls.Add(this.btnDigital);
-            this.panel1.Controls.Add(this.btnFarma);
-            this.panel1.Controls.Add(this.btnWhatsapp);
-            this.panel1.Controls.Add(this.btnChat);
-            this.panel1.Controls.Add(this.btnLoteria);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(1159, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(124, 824);
-            this.panel1.TabIndex = 3;
-            // 
-            // btnBemol
-            // 
-            this.btnBemol.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnBemol.BackgroundImage = global::Bemol.Channel.Properties.Resources.Bemol_logo;
-            this.btnBemol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBemol.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnBemol.Location = new System.Drawing.Point(0, 56);
-            this.btnBemol.Name = "btnBemol";
-            this.btnBemol.Size = new System.Drawing.Size(122, 131);
-            this.btnBemol.TabIndex = 7;
-            this.btnBemol.UseVisualStyleBackColor = false;
-            // 
-            // btnDigital
-            // 
-            this.btnDigital.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnDigital.BackgroundImage = global::Bemol.Channel.Properties.Resources.bemoldigital;
-            this.btnDigital.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDigital.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnDigital.Location = new System.Drawing.Point(0, 187);
-            this.btnDigital.Name = "btnDigital";
-            this.btnDigital.Size = new System.Drawing.Size(122, 131);
-            this.btnDigital.TabIndex = 8;
-            this.btnDigital.UseVisualStyleBackColor = false;
-            // 
-            // btnFarma
-            // 
-            this.btnFarma.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnFarma.BackgroundImage = global::Bemol.Channel.Properties.Resources.marca_bemol;
-            this.btnFarma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnFarma.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnFarma.Location = new System.Drawing.Point(0, 318);
-            this.btnFarma.Name = "btnFarma";
-            this.btnFarma.Size = new System.Drawing.Size(122, 111);
-            this.btnFarma.TabIndex = 4;
-            this.btnFarma.UseVisualStyleBackColor = false;
-            // 
-            // btnWhatsapp
-            // 
-            this.btnWhatsapp.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnWhatsapp.BackgroundImage = global::Bemol.Channel.Properties.Resources.d9d97d48264770f85d35c208f279152c;
-            this.btnWhatsapp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnWhatsapp.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnWhatsapp.Location = new System.Drawing.Point(0, 429);
-            this.btnWhatsapp.Name = "btnWhatsapp";
-            this.btnWhatsapp.Size = new System.Drawing.Size(122, 131);
-            this.btnWhatsapp.TabIndex = 5;
-            this.btnWhatsapp.UseVisualStyleBackColor = false;
-            // 
-            // btnChat
-            // 
-            this.btnChat.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnChat.BackgroundImage = global::Bemol.Channel.Properties.Resources.BOB_ICON1;
-            this.btnChat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnChat.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnChat.Location = new System.Drawing.Point(0, 560);
-            this.btnChat.Name = "btnChat";
-            this.btnChat.Size = new System.Drawing.Size(122, 131);
-            this.btnChat.TabIndex = 6;
-            this.btnChat.UseVisualStyleBackColor = false;
-            // 
-            // btnLoteria
-            // 
-            this.btnLoteria.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnLoteria.BackgroundImage = global::Bemol.Channel.Properties.Resources.logotipo_loja_loteria;
-            this.btnLoteria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnLoteria.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnLoteria.Location = new System.Drawing.Point(0, 691);
-            this.btnLoteria.Name = "btnLoteria";
-            this.btnLoteria.Size = new System.Drawing.Size(122, 131);
-            this.btnLoteria.TabIndex = 4;
-            this.btnLoteria.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -155,7 +58,7 @@ namespace Bemol.Channel
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1159, 61);
+            this.panel2.Size = new System.Drawing.Size(1283, 61);
             this.panel2.TabIndex = 4;
             // 
             // btnFechar
@@ -204,7 +107,7 @@ namespace Bemol.Channel
             this.panel3.Controls.Add(this.lblLogradouro);
             this.panel3.Controls.Add(this.lblCEP);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(968, 61);
+            this.panel3.Location = new System.Drawing.Point(1092, 61);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(191, 763);
             this.panel3.TabIndex = 6;
@@ -305,7 +208,6 @@ namespace Bemol.Channel
             this.ClientSize = new System.Drawing.Size(1283, 824);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
@@ -313,7 +215,6 @@ namespace Bemol.Channel
             this.Text = "Main";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
-            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -323,13 +224,6 @@ namespace Bemol.Channel
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnLoteria;
-        private System.Windows.Forms.Button btnFarma;
-        private System.Windows.Forms.Button btnBemol;
-        private System.Windows.Forms.Button btnDigital;
-        private System.Windows.Forms.Button btnWhatsapp;
-        private System.Windows.Forms.Button btnChat;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Button btnUsuario;

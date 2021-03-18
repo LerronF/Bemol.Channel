@@ -63,19 +63,9 @@ namespace Bemol.Channel.View.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _10617339661581068846_128 {
+        internal static System.Drawing.Bitmap bemoldigital_1609341074_planetinha_250x250png {
             get {
-                object obj = ResourceManager.GetObject("10617339661581068846-128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _8632102441536572527_128 {
-            get {
-                object obj = ResourceManager.GetObject("8632102441536572527-128", resourceCulture);
+                object obj = ResourceManager.GetObject("bemoldigital-1609341074-planetinha-250x250png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
