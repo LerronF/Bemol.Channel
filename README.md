@@ -1,4 +1,6 @@
-# Bemol Channel
+![Capture 7bded352d345410c937c](https://user-images.githubusercontent.com/34350719/111554488-d843e000-875c-11eb-9e99-545402b2b5b9.png)
+# Bemol Channel 
+
 ## Feature - Criação de contas de usuário.
 
 ### Para executar a aplicação em sua maquina, siga os passos abaixo.
@@ -21,3 +23,6 @@
 
 
 Até logo.
+
+
+
