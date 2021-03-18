@@ -38,13 +38,7 @@
 * A execução é simples, pressionando a tecla F5 a IDE faz o build do projeto, copila e quando começar a executar ele cria automatico a tabela necessária para a criação de usuarios na aplicação.
 
 ## <a id="resp"> 7. Respostas
+ * Clique aqui para obter as [Respostas da Questão](https://github.com/LerronF/Bemol.Channel/blob/main/Questoes.txt)
  
 
 [Voltar ao inicio](#begin)
-
-
-
-
-
-
-
