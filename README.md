@@ -4,7 +4,7 @@
 ### Para executar a aplicação em sua maquina, siga os passos abaixo.
 
 * Copie o link abaixo para clonar o repositório em sua máquina. 
-  * Link: [GitHub](https://github.com/LerronF/Bemol.Channel)
+  * Link: [GitHub](https://github.com/LerronF/Bemol.Channel.git)
 * Instale em sua máquina o Banco de dados SqlServer seguindo os links abaixo(se ja possui instalação ignore essa etapa).
   * [Microsoft® SQL Server® 2017 Express](https://www.microsoft.com/en-us/download/details.aspx?id=55994)
 * A IDE de desenvolvimento usada é Visual Studio 2019. Segue o link abaixo.
