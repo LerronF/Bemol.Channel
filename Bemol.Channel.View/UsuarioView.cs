@@ -9,6 +9,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Data.Entity;
 using System.Linq;
+using System.ComponentModel;
 
 namespace Bemol.Channel.View
 {
@@ -128,11 +129,11 @@ namespace Bemol.Channel.View
         {
             if (chkValida.Checked)
             {
-                var valida = MetodosComuns.CheckCPF(txtCPF.Text);
+                var valida = Validacao.CPF(txtCPF.Text);
 
                 if (valida)
                 {
-                    txtCPF.Text = MetodosComuns.CPFFormat(txtCPF.Text.Trim());
+                    txtCPF.Text = Format(txtCPF.Text.Trim(), @"000,000,000-00");
                 }
                 else
                 {
@@ -184,6 +185,15 @@ namespace Bemol.Channel.View
         private void picFotoUsuario_DoubleClick(object sender, EventArgs e)
         {
             picFotoUsuario.Image = null;
+        }
+
+        public static string Format(string field, string mask)
+        {
+            MaskedTextProvider mtp = new MaskedTextProvider(mask);
+
+            mtp.Set(field);
+
+            return mtp.ToString();
         }
     }
 }

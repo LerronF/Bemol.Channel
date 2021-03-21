@@ -7,19 +7,9 @@ using System.Threading.Tasks;
 
 namespace Bemol.Channel.Controller
 {
-    public class MetodosComuns
+    public class Validacao 
     {
-        public static string Format(string field, string mask)
-        {
-            MaskedTextProvider mtp = new MaskedTextProvider(mask);
-
-            mtp.Set(field);
-
-            return mtp.ToString();
-        }
-
-        #region -- Checa o CPF
-        public static bool CheckCPF(string sNumero)
+        public static bool CPF(string sNumero)
         {
             String Numero = sNumero;
             bool igual = true;
@@ -94,20 +84,5 @@ namespace Bemol.Channel.Controller
 
             return true;
         }
-        #endregion
-
-        #region Formata CPF
-        public static string CPFFormat(string cpf)
-        {
-            return MetodosComuns.Format(cpf, @"000,000,000-00");
-        }
-        #endregion
-
-        #region Formata CEP
-        public static string CEPFormat(string cep)
-        {
-            return MetodosComuns.Format(cep, @"00000-000");
-        }
-        #endregion
     }
 }
